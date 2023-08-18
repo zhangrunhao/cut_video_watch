@@ -22,6 +22,7 @@
 		6FAA0CC22A8F637D00FDAF81 /* cut_video_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA0CC12A8F637D00FDAF81 /* cut_video_watch_Watch_AppTests.swift */; };
 		6FAA0CCC2A8F637D00FDAF81 /* cut_video_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA0CCB2A8F637D00FDAF81 /* cut_video_watch_Watch_AppUITests.swift */; };
 		6FAA0CCE2A8F637D00FDAF81 /* cut_video_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA0CCD2A8F637D00FDAF81 /* cut_video_watch_Watch_AppUITestsLaunchTests.swift */; };
+		6FAA0CE52A8F683E00FDAF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA0CE42A8F683E00FDAF81 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		6FAA0CC72A8F637D00FDAF81 /* cut_video_watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cut_video_watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAA0CCB2A8F637D00FDAF81 /* cut_video_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cut_video_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6FAA0CCD2A8F637D00FDAF81 /* cut_video_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cut_video_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FAA0CE42A8F683E00FDAF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				6FAA0C8A2A8F637900FDAF81 /* ContentView.swift */,
 				6FAA0C8C2A8F637B00FDAF81 /* Assets.xcassets */,
 				6FAA0C8E2A8F637B00FDAF81 /* Preview Content */,
+				6FAA0CE42A8F683E00FDAF81 /* AppDelegate.swift */,
 			);
 			path = cut_video_watch;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAA0CE52A8F683E00FDAF81 /* AppDelegate.swift in Sources */,
 				6FAA0C8B2A8F637900FDAF81 /* ContentView.swift in Sources */,
 				6FAA0C892A8F637900FDAF81 /* cut_video_watchApp.swift in Sources */,
 			);

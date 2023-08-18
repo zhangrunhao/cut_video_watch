@@ -1,21 +1,22 @@
-//
-//  ContentView.swift
-//  cut_video_watch Watch App
-//
-//  Created by 张润昊 on 2023/8/18.
-//
-
+import WatchConnectivity
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("记录时间戳") {
+                recordTimestamp()
+            }
         }
-        .padding()
+    }
+
+    func recordTimestamp() {
+        let timestamp = Date().timeIntervalSince1970
+        if WCSession.default.isReachable {
+            WCSession.default.sendMessage(["timestamp": timestamp], replyHandler: nil, errorHandler: { error in
+                print("Error sending message: \(error)")
+            })
+        }
     }
 }
 
